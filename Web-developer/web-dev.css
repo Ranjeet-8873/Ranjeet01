@@ -1,0 +1,103 @@
+*{
+    /* header */
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: 'Poppins', sans-serif;
+}
+/* nav */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* jaguar logo */
+nav img{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* header list */
+nav ul{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    list-style: none;
+    align-items:center;
+    margin-left: 160px;
+    
+    
+}
+/* search input */
+nav input{
+    margin:0 0 0 500px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* search button */
+nav button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+/* section */
+section{
+display: flex;
+align-items: center;
+}
+/* left section */
+.left-part{
+    justify-content: center;
+    margin-left: 30px;
+}
+/* right section */
+.Right-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* right section image */
+.Right-part img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    margin: 75px;
+}
+/* right section chat button */
+.Right-part button{
+    color: white;
+    border-radius: 20px;
+    background-color: blue;
+}
+/* modify span */
+span{
+    font-weight: 900;
+    font-size: 30px;
+    color:aqua;
+    
+
+}
+/* footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+/* footer paragraph */
+.footer p{
+    margin-right: 350px;
+}
+/* footer list */
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+justify-content: center;
+list-style: none;
+
+}

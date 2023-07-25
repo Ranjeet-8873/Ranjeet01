@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/project\ 5.png);
+}
+/* navigation button */
+nav button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: darkorange;
+    margin-left: 85%;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: -30px;
+}
+/* navigation ul */
+ nav ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    margin: 10px;
+    font-size: 30px;
+    color: darkturquoise;
+} 
+/* section h1 */
+section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin: 50px;
+    color: aliceblue;
+}
+/* section paragraph */
+section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+/* section button */
+section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    font-size: 30px;
+    color: aquamarine;
+    border-radius: 20px;
+    
+}

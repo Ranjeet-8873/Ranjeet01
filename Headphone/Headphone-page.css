@@ -1,0 +1,76 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* navigation */
+nav{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin:20px 80px;
+   gap: 50px;  
+
+}
+/* nav img */
+nav img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+/* nav ul */
+nav ul{
+   display: flex;
+   justify-content:center;
+   gap: 35px; 
+   align-items: center;
+}
+/* section */
+section{
+   display: flex;
+   align-items: center;
+   height: 15%;
+}
+/* left section */
+.Left-section{
+   
+   justify-content: center;
+align-items: center; 
+margin: 10px;
+}
+/* left section h1 */
+.Left-section h1{
+   font-size: 50px;
+}
+/* left section paragraph */
+.Left-section p{
+   margin-top: 20px;
+   font-size: 30px;
+   font-weight: 400;
+}
+/* left section button */
+.Left-section button{
+   background-color: chartreuse;
+   color: #111011;
+   padding: 10px;
+   margin: 20px;
+   font-size: 25px; 
+   border-radius: 20PX;
+   border: 50px;
+cursor: pointer;
+}
+/* right section */
+.right-section{
+   display: flex;
+   align-items: center;
+   margin-left: 120px;
+   margin-top: 30px;
+}
+/* img right section */
+img[alt="img3"] {
+margin-left: 500px;
+height: 15%;
+}
+
+
